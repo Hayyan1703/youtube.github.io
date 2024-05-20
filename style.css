@@ -1,0 +1,283 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+body{
+    position: relative;
+    background-color: black;
+    
+
+    
+    
+}
+.navbar{
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    padding: 0 2.5vw;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+
+}
+.menu{
+    color: white;
+    position: relative;
+    font-size: 20px;
+    width: 20px;
+    cursor: pointer;
+
+}
+.logo{
+    font-size: 40px;
+    margin-left: 15px;
+    color: red;
+    cursor: pointer;
+
+}
+.name{
+    color: white;
+    font-size: 30px;
+    cursor: pointer;
+}
+  
+.searchbox{
+    position: relative;
+    width: 50%;
+    height: 35px;
+    display: flex;
+   
+}
+.searchbar{
+    width: 85%;
+    height: 100%;
+    border: 2px solid;
+    background-color: rgb(16, 16, 16);
+    padding: 0 20px;
+    font-size: 16px;
+    margin-left: 35%;
+    border-radius: 20%;
+
+}
+.searchbtn{
+    font-size: 27.5px;
+    background-color: rgb(16, 16, 16);
+    border-radius: 1%;
+ 
+    color: white;
+    border: 1px solid black;
+    cursor: pointer;
+    
+
+}
+.useropt{
+    color: white;
+    display: flex;
+    font-size: 25px;
+    margin-left: auto;
+    align-items: center;
+ 
+}
+.fa-solid{
+    height: 80%;
+    margin-right: 50px;
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.userimg{
+    height: 35px;
+    width: 35px;
+    margin-right: 25px;
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+    
+}
+.sidebar{
+    position: relative;
+    left: 0;
+    width: 17%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    height: 100%;
+    color: #fff;
+    
+
+  
+}
+
+.sidebar svg{
+    height: 1.5em;
+}
+
+.sidebar svg{
+    height: 1.5em;}
+     
+.sidebar ul{    
+    display: flex;
+    flex-direction: column;
+    margin-top: 2em;
+    gap: 35px;
+    align-items: center;
+    list-style: none;
+    padding: 0;
+    justify-content: center;
+}
+    
+    
+.sidebar ul  li{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+}
+    
+.sidebar ul  li h3{
+    font-size: 0.8em;
+ }
+    
+
+    
+
+.filters{
+    position: relative;
+    width: 100% ;
+    height: 60px;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    padding: 0 20px;
+    display: flex;
+    align-items: center;
+    background-color: rgb(4, 3, 3);
+    margin-left: -15px;
+    
+} 
+.filter-option{
+    flex: 0 0 auto;
+    padding: 10px 20px;
+    border-radius: 50px;
+    background: rgb(16, 16, 16);
+    border: 1px solid rgb(4, 3, 3);
+    margin-right: 10px;
+    color: white;
+    font-size: 15px;
+    cursor: pointer;
+}
+.filter-optionact{
+    background-color: rgb(39, 36, 36);
+    color: white;
+    flex: 0 0 auto;
+    padding: 10px 20px;
+    border-radius: 50px;
+    border: 1px solid rgb(4, 3, 3);
+    margin-right: 10px;
+    font-size: 15px;
+    cursor: pointer;
+
+}
+.filters button:hover{
+    background-color:rgb(39, 36, 36);
+}
+.videocontainer{
+    width: 100%;
+    padding: 20px;
+    gap: 20px 5px;
+    
+
+
+    
+}
+.video{
+    min-height: 250px;
+    height: auto;
+    display: flex;
+    margin-top: 10px;
+ 
+}
+
+.flex-row{
+    display: flex;
+}
+
+.thumbnail{
+    width: 100%;
+    height: 280px;
+    object-fit: 100 100;
+    border-radius: 7px;
+    margin-left: 15px;
+
+}
+.content{
+    width: 100%;
+    padding: 5px;
+    display: flex;
+    margin-left: 10px;
+    flex-direction: column;
+    gap: 20px;
+
+
+}
+
+.title{
+    width: 100%;
+    height: 40px;
+    overflow: hidden;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 100;
+  
+   
+
+}
+.time{
+    color: gray;
+    font-size: 14px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    margin-left: 10px;
+    margin-top:-10px ;
+
+
+
+  
+
+}
+.chanelphoto{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+
+
+
+.channel-name h3{color: #fff;}
+
+.channel-name{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    margin-top: 10px;
+}
+
+ 
